@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact Us</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+
+    <!-- CSS Styling -->
+    <style>
+        body {
+            font-family: 'Open Sans', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+        }
+
+        .container {
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: 90%;
+            max-width: 600px;
+        }
+
+        h1 {
+            font-family: 'Roboto', sans-serif;
+            color: #333;
+            margin-bottom: 20px;
+            font-size: 26px;
+            font-weight: 500;
+        }
+
+        .contact-info {
+            font-size: 18px;
+            color: #555;
+            line-height: 1.6;
+            text-align: left;
+            margin: 0;
+        }
+
+        .contact-info p {
+            background-color: #e0f7fa;
+            border-left: 4px solid #00bcd4;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+        }
+
+        .contact-info p:hover {
+            background-color: #b2ebf2;
+        }
+
+        .contact-info p span {
+            color: #0097a7;
+            font-weight: bold;
+        }
+
+        .social-media {
+            margin-top: 20px;
+        }
+
+        .social-media a {
+            margin: 0 10px;
+            color: #00bcd4;
+            text-decoration: none;
+            font-size: 24px;
+            transition: color 0.3s;
+        }
+
+        .social-media a:hover {
+            color: #007b8d;
+        }
+
+        .social-media i {
+            margin: 0 10px;
+        }
+
+        /* Style untuk tombol back */
+        .back-btn {
+            display: inline-block;
+            background-color: #28a745;
+            color: white;
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            text-align: center;
+            text-decoration: none;
+            margin-top: 20px;
+            transition: background-color 0.3s;
+        }
+
+        .back-btn:hover {
+            background-color: #218838;
+        }
+
+        /* Footer styling */
+        .footer {
+            margin-top: 40px;
+            text-align: center;
+            font-size: 14px;
+            color: #888;
+        }
+
+        /* Responsive styles */
+        @media (max-width: 768px) {
+            .container {
+                padding: 30px;
+                margin: 20px auto;
+            }
+
+            h1 {
+                font-size: 24px;
+            }
+
+            .contact-info p {
+                font-size: 16px;
+            }
+
+            .social-media a {
+                font-size: 20px;
+                margin: 0 8px;
+            }
+
+            .back-btn {
+                font-size: 14px;
+                padding: 8px 15px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .container {
+                padding: 20px;
+                margin: 15px auto;
+            }
+
+            h1 {
+                font-size: 22px;
+            }
+
+            .contact-info p {
+                font-size: 14px;
+            }
+
+            .social-media a {
+                font-size: 18px;
+                margin: 0 5px;
+            }
+
+            .back-btn {
+                font-size: 12px;
+                padding: 6px 12px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Contact Us</h1>
+        <div class="contact-info">
+            <p><span>Nomor HP:</span> +62 812 3456 789</p>
+            <p><span>Email:</span> Kelompok6@gmail.com</p>
+            <p><span>Alamat:</span> Universitas Pamulang Serang, Serang Banten, Indonesia</p>
+            <p><span>Jam Kerja:</span> Senin - Jumat, 18:20 - 21:00</p>
+        </div>
+
+        <div class="social-media">
+            <h2>Follow Us:</h2>
+            <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-square"></i> Facebook</a>
+            <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i> Twitter</a>
+            <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
+            <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+        </div>
+
+        <!-- Tombol Back -->
+        <a href="index.html" class="back-btn">Kembali</a>
+    </div>
+
+    <!-- FontAwesome for social media icons -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+    <!-- Copyright Footer -->
+    <div class="footer">
+        <p>&copy; 2024 Kelompok 6</p>
+    </div>
+
+</body>
+</html>
